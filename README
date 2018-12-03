@@ -7,3 +7,9 @@ https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlo
 Test scenarios can be found under Features. To execute them, use the Test Explorer window (under Test -> Windows)
 
 All dependencies are bundled in the NuGet Manager. You will just need to have the Chrome browser installed.
+
+Note that you will need Git Bash and Visual Studio downloaded.
+For Git Bash you can use all the defaults: https://git-scm.com/downloads
+For Visual Studio you can download Community Edition and select the following 2 Workloads:
+  .NET desktop development
+  Universal Windows Platform development
