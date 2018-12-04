@@ -1,6 +1,6 @@
 C#/Nunit/Specflow/Selenium WebDriver
 
-Open the .csproj file in Visual Studio (tested with VS Community Edition 2017 15.5.7).
+Open the .csproj file in Visual Studio (tested with VS Community Edition 2017 15.9.3).
 You will need to install the Specflow extension for Visual Studio from the marketplace: 
 https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowforVisualStudio2017
 
