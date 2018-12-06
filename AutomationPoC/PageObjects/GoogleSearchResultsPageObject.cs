@@ -13,9 +13,9 @@ namespace AutomationPoC.PageObjects
             WaitUntil(ExpectedConditions.ElementIsVisible(PageIdentifier));
         }
 
-        public string GetSearchResultFieldValue(string expectedText)
+        public string GetSearchResultFieldValue()
         {
-            return GetValueOfElement(SearchElement, expectedText);
+            return GetValueOfElement(SearchElement);
         }
     }
 }

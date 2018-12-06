@@ -37,7 +37,7 @@ namespace AutomationPoC.PageObjects
             return elem.Text;
         }
 
-        public string GetValueOfElement(By identifier, string expectedText)
+        public string GetValueOfElement(By identifier)
         {
             IWebElement elem = GetElement(identifier);
             return elem.GetAttribute("value");

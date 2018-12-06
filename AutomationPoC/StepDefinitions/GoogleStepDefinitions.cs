@@ -40,7 +40,7 @@ namespace AutomationPoC.StepDefinitions
         [Then(@"I should see ""(.*)"" in the search field")]
         public void ThenIShouldSeeInTheSearchField(string searchString)
         {
-            string actualValue = ((GoogleSearchResultsPageObject)ScenarioContext.Current.Get<BasePageObject>()).GetSearchResultFieldValue(searchString);
+            string actualValue = ((GoogleSearchResultsPageObject)ScenarioContext.Current.Get<BasePageObject>()).GetSearchResultFieldValue();
             Assert.IsTrue(searchString.Equals(actualValue), string.Format("The search field does not contain the expected value [{0}] but actually found [{1}]", searchString, actualValue));
         }
 
